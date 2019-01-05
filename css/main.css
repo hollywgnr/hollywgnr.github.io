@@ -1,0 +1,106 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #4dbdc2;
+}
+h1, h5, h6 {color: white}
+h2 {
+  color: #ff0000;
+  text-align: left;
+  padding-left: 10px;
+}
+p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+span.icon { 
+    font-family: FontAwesome; 
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/*navBtns*/
+.navBtn {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+  .navBtn:hover {
+    background-color: white;
+    color: #ff0000;
+  }
+
+
+
+/*socialMediaBtns*/
+.facebookBtn {
+    background-color: #4dbdc2;
+    border: none;
+    color: white;
+    font-size: 48px;
+    cursor: pointer; /* Mouse pointer on hover */
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+  }
+  .githubBtn {
+    background-color: #4dbdc2;
+    border: none;
+    color: white;
+    font-size: 48px;
+    cursor: pointer; /* Mouse pointer on hover */
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+  }
+  .linkedinBtn {
+    background-color: #4dbdc2;
+    border: none;
+    color: white;
+    font-size: 48px;
+    cursor: pointer; /* Mouse pointer on hover */
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+  }
+  .facebookBtn:hover{
+    color: #ff0000;
+  }
+  .githubBtn:hover{
+    color: #ff0000;
+  }
+  .linkedinBtn:hover{
+    color: #ff0000;
+  }
+
+.space {
+  height: 200px;
+}
+
+.paragraph {
+  width: 55%;
+  margin: 0 auto;
+  /*border: 2px solid white;*/
+}
